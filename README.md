@@ -1,7 +1,6 @@
 # spring-boot-protobuf-poc
 
-Project show how can we use protobuf with Spring boot and comparison among response in protobuf, json with key value and json with array.
-Each API is designed to send the same set of 100 records in its own format.
+This project demonstrates how to use Protobuf with Spring Boot and provides a comparison of responses in Protobuf, JSON with key-value pairs, and JSON with arrays(**out-of-the-box solution**). Each API is designed to send the same set of 100 records in its own format.
 
 ### Observation
 * There is a slight difference in response size between the Protobuf and JSON with array APIs.
