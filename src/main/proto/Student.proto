@@ -1,0 +1,15 @@
+syntax="proto3";
+
+option java_package ="com.poc.protobuf";
+
+message Student{
+  int64 id=1;
+  string name=2;
+  double marks=3;
+  string place=4;
+  float  height=5;
+}
+
+message Students{
+  repeated Student student=1;
+}
